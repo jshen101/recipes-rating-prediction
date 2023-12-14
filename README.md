@@ -72,6 +72,7 @@ To perform a "fairness analysis" of our Final Model, we tried to use permutation
 - Evaluation Metric: We decided to use f1-score as our evaluation metric, because we care equally about our model's precision and recall. We want to make sure that our model can predict both 5-stars and non-5-stars recipes well in both groups, so we choose f1-score, a single metric which combines both precision and recall. 
 
 - Null Hypothesis: Our final model is fair. Its f1-score for individuals who have longer preparing minutes and who have shorter preparing minutes are roughly the same, and any differences are due to random chance.
+
 - Alternative Hypothesis: Our final model is unfair. Its f1-score for individuals who have longer preparing minutes is lower than its f1-score for individuals who have shorter preparing minutes.
 
 - Choice of Test Statistic: Difference in f1-score between individuals who have longer preparing minutes and individuals who have shorter preparing minutes. More specifically, our test statistic is f1-score of group with longer preparing minutes minus f1-score of group with shorter preparing minutes.
