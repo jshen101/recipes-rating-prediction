@@ -77,8 +77,7 @@ To perform a "fairness analysis" of our Final Model, we tried to use permutation
 
 - Choice of Test Statistic: Difference in f1-score between individuals who have longer preparing minutes and individuals who have shorter preparing minutes. More specifically, our test statistic is f1-score of group with longer preparing minutes minus f1-score of group with shorter preparing minutes.
 
-- Significance Level: a = 0.05
-  - We choose this significance level because it is a common used significance level in hypothesis testing.
+- Significance Level: a = 0.05. We choose this significance level because it is a common used significance level in hypothesis testing.
 
 After doing the permutation test, we have the resulting p-value being 0.1501. Since our p-value=0.1501 > a=0.05, we fail to reject the null hypothesis of our final model being fair. Here is a visualization of the permutation test:
 <iframe src="fairness_analysis.html" width=800 height=600 frameBorder=0></iframe>
