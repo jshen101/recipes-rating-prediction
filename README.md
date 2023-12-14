@@ -79,5 +79,5 @@ To perform a "fairness analysis" of our Final Model, we tried to use permutation
 
 - Significance Level: a = 0.05. We choose this significance level because it is a common used significance level in hypothesis testing.
 
-After doing the permutation test, we have the resulting p-value being 0.1514. Since our p-value=0.1514 > a=0.05, we fail to reject the null hypothesis of our final model being fair. Here is a visualization of the permutation test:
+After doing the permutation test, we have the resulting p-value being 0.1517. Since our p-value=0.1517 > a=0.05, we fail to reject the null hypothesis of our final model being fair. Here is a visualization of the permutation test:
 <iframe src="fairness_analysis.html" width=800 height=600 frameBorder=0></iframe>
